@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Didact+Gothic&family=Kaushan+Script&family=Lilita+One&family=Lobster&family=Merriweather&family=Oleo+Script&family=Questrial&family=Silkscreen&family=Splash&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+
+.home {
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.home .img-home {
+    width: 100%;
+}
+
+.home .tittle-home {
+    color: #fff;
+    font-size: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 15px rgb(255, 165, 0);
+}
+
+
+.reserva {
+    max-width: 100vw;
+    background-color: rgb(255, 140, 0);
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    padding: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.reserva .tittle-turno {
+    margin: 0;
+    font-size: 30px;
+
+}
+
+
+.reserva p {
+    font-family: 'Merriweather', serif;
+}
+
+
+.btn-reserva a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-div{
+    margin-top: 1em;
+}
+
+.btn-reserva {
+    padding: 20px 40px;
+    background-color: black;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 20px -5px #000;
+    font-weight: bold;
+}
+
+
+.turno span {
+    color: black;
+}
+
